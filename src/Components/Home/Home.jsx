@@ -268,9 +268,9 @@ const Home = () => {
 
 
   const handleCreateContact = async( values , {resetForm}) => {
-    const serviceId = 'service_pmhenqm';
-    const templateId = 'template_azfe1di';
-    const publicKey = 'oNcgTP-T2uwhaecfS';
+    const serviceId = 'service_fylqpch';
+    const templateId = 'template_utlcvkm';
+    const publicKey = 'ssxyzzIIZE-JjU3i6';
   
     const templateParams = {
       name: values.name,
@@ -743,7 +743,7 @@ const Home = () => {
                                         <div className="form-inputsec relative col-span-12">
                                           <div className="label-section mb-1">
                                             <p className="text-BusinessFormLabel text-black opacity-60">
-                                              Email Address
+                                              Message
                                             </p>
                                           </div>
                                           <Field
