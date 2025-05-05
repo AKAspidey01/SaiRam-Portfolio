@@ -1,0 +1,144 @@
+.Home {
+    position: relative;
+    .right-navigation-header {
+        ul {
+            padding: 8px !important;
+            backdrop-filter: blur(5px);
+        }
+    }
+    .bg-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover; /* Ensures the video covers the full screen */
+        z-index: -1;
+    }
+    .inner-name-role-section{
+        backdrop-filter: blur(10px);
+        h1 span {
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            animation: gradient 5s linear infinite;
+        }
+    }
+    .about-des-list {
+        ul {
+            padding-left: 15px !important;
+        }
+    }
+    .about-bottom-tabs-section {
+        backdrop-filter: blur(10px);
+    }
+    .sliding-tabber {
+        transform: translate(-0% , -50%);
+        // background: linear-gradient(to right, #f71827, #0073ff);
+        // background-size: 200% 100%;
+        animation: gradient 5s linear infinite;
+    }
+    .left-profile-image {
+        .download-cv {
+            backdrop-filter: blur(10px);
+        }
+    }
+    .single-game-section , .top-arrow-section-on-profile, .bottom-privacy-section {
+        backdrop-filter: blur(10px);
+    }
+    .reachout-to-me , .social-media-section{
+        h2 {
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            animation: gradient 5s linear infinite;
+        }
+    }
+    .form-inputsec {
+        .label-section {
+            p {
+                // background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+                // -webkit-background-clip: text;
+                // background-clip: text;
+                // -webkit-text-fill-color: transparent;
+                // background-size: 200% 100%;
+                // animation: gradient 5s linear infinite;
+            }
+        }
+    }
+    .slider-heading-parts {
+        backdrop-filter: blur(10px);
+        h2 {
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            animation: gradient 5s linear infinite;
+        }
+    }
+    .lightroom-react-gallery-section {
+        
+        .lg-react-element  {
+            display: grid;
+            gap: 24px;
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+        }
+    }
+    // .gradient-changer-link {
+    //     transition: background 0.5s;
+    // }
+    // .none-gradient-bg {
+    //     background: linear-gradient(to right, #f64f5a00, #c471ed00, #12c2e900);
+    //     transition-duration: 0.5s;
+    // }
+    // .gradientBg {
+    //     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    //     background-size: 200% 100%;
+    //     animation: gradient 5s linear infinite;
+    // }
+}
+
+.download-cv  {
+    button {
+        clip-path: polygon(15px 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 15px 100%, 0% 50%);
+        transition-duration: 0.5s;
+    }
+    button:hover {
+        clip-path: polygon(0px 0%, 100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+    }
+}
+
+.bottom-form-submitter {
+    button {
+        clip-path: polygon(0px 0%, 100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+        transition-duration: 0.5s;
+    }
+    button:hover {
+        clip-path: polygon(15px 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 15px 100%, 0% 50%);
+    }
+}
+
+.playbtn {
+    button {
+        clip-path: polygon(15px 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 15px 100%, 0% 50%);
+    }
+    button:hover {
+        clip-path: polygon(0px 0%, 100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+    }
+}
+@keyframes gradient {
+    0% {
+        background-position: right center;
+    }
+    50% {
+        background-position: left center;
+    }
+    100% {
+        background-position: right center;
+    }
+  }
