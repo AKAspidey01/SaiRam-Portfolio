@@ -5,6 +5,9 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 // import Header from './Components/Shared/Header/Header';
 // import Footer from './Components/Shared/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+import TermsConditions from './Components/PolicyPages/TermsConditions/TermsConditions';
+import PrivacyPolicy from './Components/PolicyPages/PrivacyPolicy/PrivacyPolicy';
+import RefundPolicy from './Components/PolicyPages/RefundPolicy/RefundPolicy';
 
 function App() {
 
@@ -13,6 +16,9 @@ function App() {
       <Router>
         <Routes>
           <Route exact={true} Component={Home} path='/'/>
+          <Route exact={true} Component={TermsConditions} path='/terms-conditions'/>
+          <Route exact={true} Component={PrivacyPolicy} path='/privacy-policy'/>
+          <Route exact={true} Component={RefundPolicy} path='/refund-policy'/>
         </Routes>
         <Toaster 
           position="top-center"

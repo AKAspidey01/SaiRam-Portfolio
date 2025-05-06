@@ -318,7 +318,7 @@ const Home = () => {
               <div className="left-image-header relative rounded-full overflow-hidden">
                   <img src={Profile} className='w-16 h-16  rounded-full shadow-xl' alt="" />
                   <button type='button' onClick={scrollToTop} className={`top-arrow-section-on-profile absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-20 duration-500 origin-center rounded-full ${headerBar ? 'scale-100' : 'scale-0'}`}>
-                    <i class="bi bi-arrow-up text-3xl text-white"></i>
+                    <i className="bi bi-arrow-up text-3xl text-white"></i>
                   </button>
               </div>
               <div className="right-navigation-header">
@@ -649,13 +649,14 @@ const Home = () => {
                 <h2 className='text-white font-semibold text-6xl'>Contact</h2>
               </div>
               <div className="inner-contact-form-section bg-[#262626] p-8 rounded-2xl mt-10">
-                  <div className="inner-contat-section-grid grid grid-cols-12">
+                  <div className="inner-contat-section-grid grid grid-cols-12 gap-5">
                       <div className="left-follow-section-contact col-span-4 flex flex-col justify-between gap-10">
                         <div className="reachout-to-me">
                           <h2 className='text-2xl font-regular'>Reach out to me</h2>
                           <div className="reach-number-email flex flex-col gap-4 mt-6">
-                            <a href="mailto:sairamyedidaoffl@gmail.com" className='text-xl text-white font-medium inline-block duration-300 leading-[24px] hover:text-[#FF5353]'><i class="bi bi-envelope mr-2"></i> sairamyedidaoffl@gmail.com</a>
-                            <a href="tel:+916309641235" className='text-xl text-white font-medium inline-block duration-300 leading-[24px] hover:text-[#FF5353]'><i class="bi bi-telephone mr-2"></i> +91 630 964 1235</a>
+                            <a href="mailto:sairamyedidaoffl@gmail.com" className='text-xl text-white font-medium inline-block duration-300 leading-[24px] hover:text-[#FF5353]'><i className="bi bi-envelope mr-2"></i> sairamyedidaoffl@gmail.com</a>
+                            <a href="tel:+916309641235" className='text-xl text-white font-medium inline-block duration-300 leading-[24px] hover:text-[#FF5353]'><i className="bi bi-telephone mr-2"></i> +91 630 964 1235</a>
+                            <a href="tel:+916309641235" className='text-xl text-white font-medium inline-block duration-300 leading-[24px] hover:text-[#FF5353]'><i className="bi bi-geo-alt mr-2"></i> Kakinada, Andhra Pradesh</a>
                           </div>
                           <div className="download-cv py-8 rounded-2xl duration-500">
                             <button type="button" onClick={handleDownload} className='bg-[#277dff] px-8 py-2 text-xl font-medium text-white rounded-full'>Download CV <i className="bi bi-cloud-arrow-down ml-4"></i></button>
@@ -781,9 +782,9 @@ const Home = () => {
                 <div className="container">
                   <div className="privacy-links">
                       <ul className='flex items-center justify-center gap-10'>
-                        <li><NavLink className={'text-white font-medium hover:text-[#FF5353] duration-300'}>Terms & Conditions</NavLink></li>
-                        <li><NavLink className={'text-white font-medium hover:text-[#FF5353] duration-300'}>Privacy Policy</NavLink></li>
-                        <li><NavLink className={'text-white font-medium hover:text-[#FF5353] duration-300'}>Refund & Cancellation Policy</NavLink></li>
+                        <li><NavLink className={'text-white font-medium hover:text-[#FF5353] duration-300'} to={'/terms-conditions'}>Terms & Conditions</NavLink></li>
+                        <li><NavLink className={'text-white font-medium hover:text-[#FF5353] duration-300'} to={'/privacy-policy'}>Privacy Policy</NavLink></li>
+                        <li><NavLink className={'text-white font-medium hover:text-[#FF5353] duration-300'} to={'/refund-policy'}>Refund & Cancellation Policy</NavLink></li>
                       </ul>
                   </div>
                 </div>
