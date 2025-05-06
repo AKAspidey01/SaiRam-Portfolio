@@ -25,6 +25,7 @@ const TermsConditions = () => {
                 <p className='text-Secondary leading-relaxed'>All course content made available through this website is the intellectual property of the creator and is strictly for personal and educational use. Redistribution, resale, or unauthorized sharing of the course materials, including but not limited to video content, downloadable files, and private drive links, is prohibited and may lead to legal action.</p>
                 <p className='text-Secondary leading-relaxed'>Once a course is purchased, access will be granted via a private Google Drive link or similar method. It is the buyer's responsibility to ensure their email and contact details are entered correctly during the purchase. All sales are final and non-refundable.</p>
                 <p className='text-Secondary leading-relaxed'>We reserve the right to update or change these terms at any time without prior notice. Continued use of the site or its services after such modifications shall constitute your consent to the updated terms.</p>
+                <p className='text-Secondary leading-relaxed'><strong>Location:</strong> Kakinada , Andhrapradesh - 533001 ,  India</p>
               </div>
             </div>
           </div>

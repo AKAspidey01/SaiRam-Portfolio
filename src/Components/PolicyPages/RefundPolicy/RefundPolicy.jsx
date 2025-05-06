@@ -25,6 +25,7 @@ const RefundPolicy = () => {
                 <p className='text-Secondary leading-relaxed'>All purchases made through this website are final and non-refundable. Once payment has been successfully completed via Razorpay, the course content—delivered as a private link or downloadable file—is considered consumed and cannot be returned or revoked.</p>
                 <p className='text-Secondary leading-relaxed'>As the nature of the course delivery is digital and immediate, we do not offer cancellations or exchanges after the order is placed. Please review the course description carefully before making your purchase. If you encounter any issues accessing the content, you may contact us for support, and we will do our best to resolve technical issues related to access.</p>
                 <p className='text-Secondary leading-relaxed'>We appreciate your understanding and cooperation regarding this no-refund policy. This is in place to protect the value of the content and ensure fair use.</p>
+                <p className='text-Secondary leading-relaxed'><strong>Refund Related Contact:</strong> <a href="tel:+916309641235">+91 630 964 1235</a></p>              
               </div>
             </div>
           </div>
